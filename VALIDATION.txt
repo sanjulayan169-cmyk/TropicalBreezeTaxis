@@ -1,0 +1,20 @@
+Tropical Breeze Taxis — static website validation
+Checked: 28 September 2026
+
+PASS — Public homepage content visible; no account-loading screen or hidden React export segments.
+PASS — All 24 HTML files checked for local page and asset references.
+PASS — Browser execution from file:// and a hosted /tropical-breeze/ repository subfolder.
+PASS — Sri Lanka geographic shape and all 15 destination markers with external network requests blocked.
+PASS — Map search, destination selection, Show all, zoom, expand and Escape to close.
+PASS — Destination carousel previous/next buttons.
+PASS — Destination category filtering and empty map search.
+PASS — Car, Flat Roof Van and High Roof Van vehicle filtering; air-conditioning filter and empty results.
+PASS — Homepage form navigation retains the selected vehicle type and destination.
+PASS — Both car model links map to Car; KDH links map to the appropriate van category.
+PASS — Booking form prepares a message with the chosen vehicle and journey details.
+PASS — WhatsApp and Gmail enquiry URLs contain the supplied contact details.
+PASS — Contact form prepares an enquiry.
+PASS — Mobile navigation and no horizontal overflow at a 390px viewport.
+PASS — No JavaScript page errors, missing HTTP assets or external requests in the automated browser run.
+
+Testing used Chromium with reduced motion enabled and desktop/mobile viewport sizes. Desktop and mobile screenshots were inspected. Tests prepare enquiries without sending messages. Third-party apps, actual GitHub publication, every browser version and all device sizes were not tested. Additional content changes should be checked before publishing.
